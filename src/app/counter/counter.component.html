@@ -1,0 +1,12 @@
+<h2>Counter value: {{counter()}}</h2>
+
+<h2>Direved counter: {{derivedCounter()}}</h2>
+
+<h2>Multiplier: {{ multiplier }}</h2>
+
+<h1>Course title {{course().title}}</h1>
+
+<h1>Courses: {{courses().join(", ")}}</h1>
+
+<button (click)="increment()">Increment</button>
+<button (click)="incrementMultiplier()">Increment mult</button>
